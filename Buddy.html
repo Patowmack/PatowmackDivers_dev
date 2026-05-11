@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Patowmack Divers Home Page</title>
+    <meta name="keywords" content="scuba diving Patowmack Divers Virginia Washington DC Maryland" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/ico" href="./favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      p {
+        text-indent: 10px;
+      }
+
+      .dropdown-menu {
+        background-color: #6699ff;
+        border: 1px solid #d9534f;
+      }
+    </style>
+  </head>
+
+  <body class="bg-info">
+    <!--   <div data-include="body"></div>
+<div data-include="navsite"></div> -->
+
+    <div id="content"></div>
+
+    <script>
+      fetch("./headermenu.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content").innerHTML = data;
+        });
+    </script>
+
+    <div class="container-fluid">
+      <div class="row mx-4 my-4">
+        <h4 class="text-center">Greetings from your webmaster</h4>
+
+        <h6 class="p5">Who I am:</h6>
+        <div class="container-fluid">
+          <p> I'm Buddy; I've been a member of Patowmack Divers since 2017. Sarah (our communications officer) introduced me
+          to the club. I began diving in 2007, partially as a way of countering my work-a-holic tendencies, but also because
+          I was raised on a diet of, "The Undersea World Of Jacques Cousteau." I love the sense of freedom and being
+          completely disconnected from the surface and the land. As a space nerd (I work for NASA in my day job!), I also
+          love the feeling of floating without gravity and being able to move effortlessly in all 3 dimensions. In the past,
+          I've done a fair bit of cold-water diving in the quarries of Pennsylvania, Maryland, and Virginia. I've also seen
+          the Great Barrier Reef off the coast of Australia and, in 2019, I got to visit the Solomon Islands with some of
+          our group. I've also greatly enjoyed diving in various parts of the Carribean. In 2012, I achieved the rank of SSI
+          Dive Control Specialist (basically the same as a PADI DiveMaster), but I haven't kept up with it as a
+          profession.</p>
+          <p> Out of the water, as previously mentioned, I'm a card-carrying space nerd. I had the priviledge of working on
+          all of the servicing missions to the Hubble Space Telescope and I've designed bits of many different space
+          missions over my 30+ years at NASA. I also enjoy riding motorcycles ... many years ago, I rode all the way to
+          California and back. And I have recently begun to get in touch with my artistic side, having taken up sculpting in
+          metal. Under the tutelage of my lovely lady, I've begun to learn my way around the kitchen; my cooking skills have
+          always been quite rudimentary, but I enjoy learning new recipes and I've lately been obsessed with my bread machine.</p>
+          <p> I really hope this website piques your interest enough to make you want to come visit us and, maybe, even
+           join our happy group.</p>
+            <img src="Dive Long and Prosper.jpg" height="384" width="512" />
+            <img src="Dive Briefing.jpg" height="384" width="512" />
+        </div>  <!-- container-fluid -->
+
+
+
+
+        </div>
+        <!-- container-fluid -->
+      </div>
+      <!-- col-md-9 -->
+
+    <p class="text-center">
+      <a href="http://www.facebook.com/PatowmackDivers"
+        ><img
+          src="./images/f_logo.jpg"
+          style="border: none"
+          height="25"
+        />Follow us on Facebook!</a
+      >
+      or email us at "Dive at PatowmackDivers.com" replace <i> at </i> with @
+    </p>
+
+    <p class="text-center">
+      Copyright (c) 2011-2026 Patowmack Divers.com. All rights reserved.
+    </p>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
